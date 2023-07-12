@@ -60,6 +60,7 @@ model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
 
+The Residual standard error is 1.226, while the r-squared is 0.4706. The comparison between the two, we always look at the adjusted R-squared numbers. The more data in the model the adjusted R-squared will become higher.
 
 #### Predict at target point
 
