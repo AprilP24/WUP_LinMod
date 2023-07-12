@@ -55,6 +55,12 @@ The results for this numerical SIMS~ARM is about 0.6860073. Which means that the
 
 ### Inferential  (Build model.1)
 
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+
+
 #### Predict at target point
 
 
