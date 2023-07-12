@@ -62,7 +62,13 @@ summary.lm(model.1)
 
 The Residual standard error is 1.226, while the r-squared is 0.4706. The comparison between the two, we always look at the adjusted R-squared numbers. The more data in the model the adjusted R-squared will become higher.
 
+
 #### Predict at target point
+
+```{r}
+mydata<-data.frame(GRIP=88, ARM=184)
+predict.lm(model.1,mydata, interval ="prediction")
+```
 
 
 #### scatterplot with model fit
