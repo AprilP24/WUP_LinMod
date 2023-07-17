@@ -106,6 +106,8 @@ mygrip <- ggplot(data,aes(y=SIMS,x=GRIP)) +
 cor(SIMS~GRIP,data=data)
 ```
 
+The Numerical results for SIMS~GRIP is about 0.6398458. SIMS~ARM has a higher correlation than SIMS~GRIP.
+
 ### Inferential  (Build model.2)
   
 
