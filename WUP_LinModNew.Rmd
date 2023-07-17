@@ -110,6 +110,10 @@ The Numerical results for SIMS~GRIP is about 0.6398458. SIMS~ARM has a higher co
 
 ### Inferential  (Build model.2)
   
+```{r}
+model.2 <- lm(SIMS~GRIP,data=data)
+summary.lm(model.2)
+```
 
 #### predict model.2 at target point
 
