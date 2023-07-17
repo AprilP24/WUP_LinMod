@@ -115,6 +115,8 @@ model.2 <- lm(SIMS~GRIP,data=data)
 summary.lm(model.2)
 ```
 
+The residual standard error is 1.295 and the r-squared is 0.4094. While SIMS~ARM has a better residual error. Also has a better r-squared number than SIMS~GRIP.
+
 #### predict model.2 at target point
 
 #### now add the model fit to our plot for model.2
