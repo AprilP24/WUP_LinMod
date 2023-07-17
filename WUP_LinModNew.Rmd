@@ -102,6 +102,10 @@ mygrip <- ggplot(data,aes(y=SIMS,x=GRIP)) +
 ### Numerical results 
 
 
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
 ### Inferential  (Build model.2)
   
 
