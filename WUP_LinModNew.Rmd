@@ -123,6 +123,8 @@ The residual standard error is 1.295 and the r-squared is 0.4094. While SIMS~ARM
 predict.lm(model.2,mydata, interval ="prediction")
 ```
 
+From the data shown it shows the interval go from negative 3.38 to a positive 1.766.
+
 #### now add the model fit to our plot for model.2
   
 
