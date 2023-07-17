@@ -147,6 +147,8 @@ mygrip
 cor(SIMS~ARM+GRIP,data=data)
 ```
   
+The correlation is larger than SIMS~ARM, SIMS~GRIP. And with all three together it makes a larger correlation of 0.73.
+  
 ### Inferential  (Build 2-dimentional model.3)
 
 #### predict model.3 at target point
