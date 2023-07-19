@@ -178,6 +178,12 @@ The interval prediction goes from a positive 0.941 to a positive 6.227, which is
 anova(model.1, model.3)
 ```
 
+Gives a p-value of .00000499, in which it has no value. It is comparing the residual standard error of the model 1.
+
+
+```{r}
+anova(model.1)
+```
 
 ### Model.2 vs Model.3
 
