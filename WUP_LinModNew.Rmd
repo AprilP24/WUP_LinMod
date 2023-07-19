@@ -184,6 +184,7 @@ Gives a p-value of .00000499, in which it has no value. It is comparing the resi
 anova(model.2, model.3)
 ```
 
+The p value is a lot smaller than model.1,model.3 .But There is a difference between the rest of data models when compared. Model 3 is better than model 1 and model 3 is better than model 2. This is all based on their p values. 
 
 ### Model.2 vs Model.3
 
